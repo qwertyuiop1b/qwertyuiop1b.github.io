@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>博客正式上线了！</title>
+      <link href="/2026/03/08/hello-world/"/>
+      <url>/2026/03/08/hello-world/</url>
+      
+        <content type="html"><![CDATA[<h2 id="你好，世界！"><a href="#你好，世界！" class="headerlink" title="你好，世界！"></a>你好，世界！</h2><p>欢迎来到我的博客，这是第一篇文章。</p><p>这个博客基于 <a href="https://hexo.io/">Hexo</a> 搭建，使用了美观的 <a href="https://butterfly.js.org/">Butterfly</a> 主题，部署在 GitHub Pages 上。</p><span id="more"></span><h2 id="为什么写博客？"><a href="#为什么写博客？" class="headerlink" title="为什么写博客？"></a>为什么写博客？</h2><ul><li><strong>记录学习</strong>：把学到的知识用文字整理，加深理解</li><li><strong>分享经验</strong>：希望自己的踩坑经历能帮助到他人</li><li><strong>持续成长</strong>：输出倒逼输入，保持学习的动力</li></ul><h2 id="博客技术栈"><a href="#博客技术栈" class="headerlink" title="博客技术栈"></a>博客技术栈</h2><table><thead><tr><th>项目</th><th>技术</th></tr></thead><tbody><tr><td>框架</td><td>Hexo 5.x</td></tr><tr><td>主题</td><td>Butterfly</td></tr><tr><td>部署</td><td>GitHub Pages + GitHub Actions</td></tr><tr><td>写作</td><td>Markdown</td></tr></tbody></table><h2 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h2><ul><li><input disabled="" type="checkbox"> 完善个人介绍页面</li><li><input disabled="" type="checkbox"> 写更多技术笔记</li><li><input disabled="" type="checkbox"> 自定义博客样式</li></ul><hr><blockquote><p>千里之行，始于足下。开始写吧！</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
