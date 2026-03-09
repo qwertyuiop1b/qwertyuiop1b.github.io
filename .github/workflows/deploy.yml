@@ -9,12 +9,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
-        with:
-          submodules: false
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,12 +28,11 @@ jobs:
       - name: Generate static files
         run: npx hexo generate
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
-          personal_token: ${{ secrets.DEPLOY_TOKEN }}
-          external_repository: qwertyuiop1b/qwertyuiop1b.github.io
-          publish_branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./public
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
